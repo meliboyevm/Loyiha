@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, white, grey);
+}
+.container header {
+  align-items: center;
+  padding: 8px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.container header .left h2 {
+  color: rgba(0, 0, 0, 0.77);
+  font-size: 30px;
+}
+.container header .right ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.container header .right ul li a {
+  color: rgba(0, 0, 0, 0.77);
+  list-style: none;
+  transition: all 0.5s ease-in-out;
+}
+.container header .right ul li a:hover {
+  color: #face30;
+  transform: scale(1.1);
+}
+.container main {
+  display: flex;
+  padding: 60px 30px;
+  gap: 30px;
+}
+.container main .main__left img {
+  border-radius: 10px;
+}
+.container main .main__right h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.container main .main__right p {
+  margin-top: 15px;
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 27px;
+}
+.container main .main__right button {
+  margin-top: 25px;
+  margin-left: 450px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(30deg, rgb(94, 94, 225), aqua);
+  padding: 5px 20px;
+  font-size: 17px;
+  transition: all 0.4s ease-in-out;
+}
+.container main .main__right button:hover {
+  background: linear-gradient(45deg, aqua, rgb(94, 94, 225));
+  cursor: pointer;
+  scale: 1.1;
+  box-shadow: 0 0 30px 5px rgb(37, 34, 34);
+}
+.container footer {
+  display: flex;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 0 30px 0 30px;
+}
+.container footer .email {
+  margin-left: 10px;
+}
+.container footer .email1 {
+  margin-left: 10px;
+}
+.container footer .email2 {
+  margin-left: 14px;
+}
+.container footer .footer__left {
+  line-height: 35px;
+}
+.container footer .footer__left label {
+  font-family: sans-serif;
+}
+.container footer .footer__left input {
+  padding-left: 10px;
+  font-size: 17px;
+  width: 200px;
+  height: 30px;
+}
+.container footer .footer__right {
+  margin-left: 20px;
+  line-height: 25px;
+}/*# sourceMappingURL=style.css.map */
